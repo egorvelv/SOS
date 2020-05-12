@@ -8,3 +8,15 @@
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
+.section.-main {
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
