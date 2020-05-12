@@ -1,9 +1,21 @@
+@font-face {
+	font-family: "Bebas Neue";
+	src: url("../fonts/BebasNeue-Regular.ttf");
+	/*font-style: cursive;*/
+}
+
 .title {
 	font-size: 80px;
+	margin-bottom: 15px;
 	font-weight: bold;
+	font-family: "Bebas Neue";
+	color: var(--c-white);
 }
 
 .subtitle {
 	font-size: 24px;
+	margin-bottom: 15px;
 	font-weight: bold;	
+	font-family: "Bebas Neue";
+	color: var(--c-white);
 }

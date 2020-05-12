@@ -1,0 +1,17 @@
+.nav {
+
+}
+
+.nav__link {
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 16px;
+	text-align: right;
+	color: var(--c-white);
+	letter-spacing: 0.1em;
+	margin-right: 25px;
+}
+
+.nav__link:last-child {
+	margin-right: 0px;
+}

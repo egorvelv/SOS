@@ -1,0 +1,16 @@
+.button {
+	background: var(--c-yellow-gradient);
+	padding: 15px;
+	border-radius: 4px;
+	color: var(--c-black);
+	display: flex;
+	justify-content: space-between;
+}
+
+.button__divider {
+	width: .5px;
+	height: 25px;
+	margin: 0px 15px;
+	background-color: var(--c-black);
+	display: block;
+}
