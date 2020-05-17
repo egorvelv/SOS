@@ -22,6 +22,7 @@
 	color: var(--c-white);
 	text-transform: uppercase;
 	letter-spacing: 2px;
+	text-align: center;
 }
 
 @media screen and (max-width: 1023px) {
