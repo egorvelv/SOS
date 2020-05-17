@@ -11,6 +11,7 @@
 	font-family: "Bebas Neue";
 	color: var(--c-white);
 	text-transform: uppercase;
+	letter-spacing: 3px;
 }
 
 .subtitle {
@@ -20,4 +21,35 @@
 	font-family: "Bebas Neue";
 	color: var(--c-white);
 	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+@media screen and (max-width: 1023px) {
+	.title {
+		font-size: 65px;
+	}
+
+	.subtitle {
+		font-size: 22px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.title {
+		font-size: 50px;
+	}
+
+	.subtitle {
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.title {
+		font-size: 32.5px;
+	}
+
+	.subtitle {
+		font-size: 15px;
+	}
 }

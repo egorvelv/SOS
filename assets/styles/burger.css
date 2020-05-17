@@ -1,0 +1,23 @@
+.burger {
+	display: none;
+}
+
+.burger__particle {
+	width: 30px;
+	height: 2px;
+	background-color: var(--c-white);
+	margin-bottom: 5px;
+	transition: .5s;
+}
+
+.burger__particle.-s {
+	width: 15px;
+}
+
+@media screen and (max-width: 1023px) {
+	.burger {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+	}
+}
