@@ -5,12 +5,24 @@
 	color: var(--c-black);
 	display: flex;
 	justify-content: space-between;
+	font-size: 16px;
 }
 
 .button__divider {
-	width: .5px;
-	height: 25px;
+	width: 1px;
 	margin: 0px 15px;
 	background-color: var(--c-black);
 	display: block;
+}
+
+.button.-transparent {
+	background: transparent;
+}
+
+.button.-white {
+	color: var(--c-white);
+}
+
+.button.-s {
+	font-size: 12px;
 }

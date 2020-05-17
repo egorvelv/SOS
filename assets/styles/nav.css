@@ -10,6 +10,7 @@
 	color: var(--c-white);
 	letter-spacing: 0.1em;
 	margin-right: 25px;
+	text-transform: uppercase;
 }
 
 .nav__link:last-child {

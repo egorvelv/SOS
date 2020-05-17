@@ -10,6 +10,7 @@
 	font-weight: bold;
 	font-family: "Bebas Neue";
 	color: var(--c-white);
+	text-transform: uppercase;
 }
 
 .subtitle {
@@ -18,4 +19,5 @@
 	font-weight: bold;	
 	font-family: "Bebas Neue";
 	color: var(--c-white);
+	text-transform: uppercase;
 }
