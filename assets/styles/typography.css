@@ -25,6 +25,29 @@
 	text-align: center;
 }
 
+.text {
+	color: var(--c-white);
+	font-family: "Open Sans";
+}
+
+.text__bold {
+	font-weight: bold;
+}
+
+.text__underlined {
+	position: relative;
+}
+
+.text__underlned:after {
+	position: absolute;
+	bottom: 0px;
+	display: block;
+	content: "";
+	height: 1px;
+	width: 100%;
+	background: var(--c-yellow-gradient);
+}
+
 @media screen and (max-width: 1023px) {
 	.title {
 		font-size: 65px;

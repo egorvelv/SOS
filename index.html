@@ -3,6 +3,7 @@
 <head>
 	<title>SOS</title>
 	<meta charset="utf-8">
+	<link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/base.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/variables.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/container.css">
@@ -14,6 +15,8 @@
 	<link rel="stylesheet" type="text/css" href="./assets/styles/global-modifiers.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/scroll.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/burger.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/about.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/slider.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -49,7 +52,7 @@
 			</header>
 		</div>
 		<div class="container">
-			<div class="content">
+			<div class="content -col">
 				<h1 class="title -g-up">Survive at all costs</h1>
 				<h3 class="subtitle -g-up">Experience new social battle royale game</h3>
 				<a href="" class="button">Buy now on steam <div class="button__divider"></div> $14.99</a>
@@ -66,17 +69,32 @@
 	<section class="section -about" id="about">
 		<div class="container">
 			<div class="content">
-				<div class="content -left">
-					<div class="content -top">
+				<div class="about">
+					<header class="about__header">
 						<h3 class="subtitle">What is SOS?</h3>
 						<h2 class="title">Social battle royale game</h2>
-					</div>
-					<div class="content -bottom">
+					</header>
+						
+					<div class="about__body">
 						<p class="text">Each round, <span class="text__bold">you</span> and <span class="text__bold">15</span> other contestants compete to escape a deadly island filled with monsters. The trick is: <span class="text__bold">three</span> people can survive. Will you run solo or form friendships with others to escape?
-							Making the right decisions could be the difference between <span class="text__underlined">life and death</span>.</p>
+
+						Making the right decisions could be the difference between <span class="text__underlined">life and death</span>.</p>
 					</div>
 				</div>
-				<div class="content -right"></div>
+
+				<div class="slider">
+					<img src="./assets/img/about_1.jpg" alt="" class="slider__item">
+					<img src="./assets/img/about_3.png" alt="" class="slider__item">
+					<img src="./assets/img/about_1.jpg" alt="" class="slider__item">
+					<div class="slider__controls">
+						<button class="slider__control -active"></button>
+						<button class="slider__control"></button>
+						<button class="slider__control"></button>
+						<button class="slider__control"></button>
+						<button class="slider__control"></button>
+					</div>
+					<div class="slider__next"></div>
+				</div>
 			</div>
 		</div>
 	</section>

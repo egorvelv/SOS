@@ -1,0 +1,32 @@
+.about {
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.about__header {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	position: relative;
+	width: 100%;
+}
+
+.about__header:after {
+	display: block;
+	content: "";
+	width: 700px;
+	height: 1.5px;
+	background: var(--c-white);
+	position: absolute;
+	bottom: 15px;
+	z-index: 6;
+}
+
+.about__body {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	padding-left: 80px;
+}

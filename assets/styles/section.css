@@ -17,8 +17,17 @@
 	background-image: url(../img/main_bg.jpg);
 }
 
+.section.-about {
+	background-image: url(../img/about_bg.jpg);
+}
+
 .content {
 	display: flex;
+	justify-content: space-between;
+}
+
+.content.-col {
+	justify-content: unset;
 	flex-direction: column;
 	align-items: center;
 }

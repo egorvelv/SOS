@@ -1,0 +1,29 @@
+.slider {
+	width: 50%;
+	position: relative;
+}
+
+.slider__item {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	border-radius: 10px;
+}
+
+.slider__item:first-child {
+	left: 10px;
+	z-index: 5;
+	max-width: 80%;
+}
+
+.slider__item:nth-child(2) {
+	left: 80px;
+	z-index: 4;
+	max-width: 70%;
+}
+
+.slider__item:nth-child(3) {
+	right: 50px;
+	z-index: 3;
+	max-width: 65%;
+}
