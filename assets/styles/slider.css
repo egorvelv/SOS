@@ -1,5 +1,5 @@
 .slider {
-	width: 50%;
+	width: 55%;
 	position: relative;
 }
 
@@ -103,6 +103,12 @@
 
 @media screen and (max-width: 1023px) {
 	.slider__controls {
-		bottom: 15%;
+		bottom: 10%;
+	}
+}
+
+@media screen and (max-width: 890px) {
+	.slider {
+		width: 50%;
 	}
 }

@@ -1,5 +1,5 @@
 .about {
-	width: 50%;
+	width: 55%;
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
@@ -29,4 +29,21 @@
 	display: flex;
 	justify-content: flex-end;
 	padding-left: 80px;
+}
+
+@media screen and (max-width: 1023px) {
+	.about__body {
+		padding-left: 60px;
+	}
+}
+
+@media screen and (max-width: 890px) {
+	.about {
+		width: 55%;
+	}
+
+	.about__body {
+		padding-left: 0px;
+		justify-content: center;
+	}
 }
