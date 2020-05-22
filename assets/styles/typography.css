@@ -38,14 +38,16 @@
 	position: relative;
 }
 
-.text__underlned:after {
+.text__underlined:after {
 	position: absolute;
 	bottom: 0px;
+	left: 1px;	
 	display: block;
 	content: "";
-	height: 1px;
+	height: 5px;
 	width: 100%;
 	background: var(--c-yellow-gradient);
+	white-space: nowrap;
 }
 
 @media screen and (max-width: 1023px) {
@@ -55,6 +57,10 @@
 
 	.subtitle {
 		font-size: 22px;
+	}
+
+	.text {
+		font-size: 16px;
 	}
 }
 

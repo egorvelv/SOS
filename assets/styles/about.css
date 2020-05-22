@@ -16,7 +16,7 @@
 .about__header:after {
 	display: block;
 	content: "";
-	width: 700px;
+	width: 120%;
 	height: 1.5px;
 	background: var(--c-white);
 	position: absolute;
