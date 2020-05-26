@@ -1,0 +1,22 @@
+.quotes {
+
+}
+
+.comment {
+
+}
+
+.user {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.user__name {
+	font-size: 24px;
+	text-transform: uppercase;
+	color: var(--c-yellow);
+}
+
+.user__link {
+	margin-left: auto;
+}

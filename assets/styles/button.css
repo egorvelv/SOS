@@ -3,9 +3,12 @@
 	padding: 15px;
 	border-radius: 4px;
 	color: var(--c-black);
+	font-size: 16px;
+}
+
+.button.-hero {
 	display: flex;
 	justify-content: space-between;
-	font-size: 16px;
 }
 
 .button__divider {

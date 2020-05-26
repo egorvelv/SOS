@@ -22,12 +22,12 @@
 	color: var(--c-white);
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	text-align: center;
 }
 
 .text {
 	color: var(--c-white);
 	font-family: "Open Sans";
+	margin-bottom: 10px;
 }
 
 .text__bold {
@@ -48,6 +48,10 @@
 	width: 100%;
 	background: var(--c-yellow-gradient);
 	white-space: nowrap;
+}
+
+.text.-features {
+	width: 80%;
 }
 
 @media screen and (max-width: 1023px) {
