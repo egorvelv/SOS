@@ -1,0 +1,44 @@
+.table {
+	width: 60%;
+}
+
+.table__row {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.table__cell {
+	width: 100%;
+	padding: 15px 15px 30px;
+	border: .5px solid var(--c-gray-light);
+}
+
+.table__cell.-twoinrow {
+	width: 50%;
+}
+
+.table__title {
+	font-size: 24px;
+	margin-bottom: 10px;
+	color: var(--c-yellow);
+	text-transform: uppercase;
+}
+
+.table__text {
+	color: var(--c-gray-light);
+}
+
+@media screen and (max-width: 767px) {
+	.table {
+		width: calc(100% - 20px);
+	}
+
+	.table__title {
+		font-size: 18px;
+	}
+
+	.table__text {
+		font-size: 14px;
+	}
+}

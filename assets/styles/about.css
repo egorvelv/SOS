@@ -1,8 +1,5 @@
 .about {
 	width: 55%;
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
 }
 
 .about__header {
@@ -43,7 +40,46 @@
 	}
 
 	.about__body {
-		padding-left: 0px;
-		justify-content: center;
+		padding-left: 35px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.about {
+		display: flex;
+		justify-content: unset;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		margin-bottom: 145px;
+		padding-top: 10px;
+	}
+
+	.about__header:after {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.about {
+		margin-bottom: 125px;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.about {
+		margin-bottom: 105px;
+	}
+}
+
+@media screen and (max-width: 460px) {
+	.about {
+		margin-bottom: 95px;
+	}
+}
+
+@media screen and (max-width: 405px) {
+	.about {
+		margin-bottom: 125px;
 	}
 }

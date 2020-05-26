@@ -6,7 +6,7 @@
 
 .title {
 	font-size: 80px;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 	font-weight: bold;
 	font-family: "Bebas Neue";
 	color: var(--c-white);
@@ -16,7 +16,7 @@
 
 .subtitle {
 	font-size: 24px;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 	font-weight: bold;	
 	font-family: "Bebas Neue";
 	color: var(--c-white);
@@ -60,7 +60,7 @@
 	}
 
 	.text {
-		font-size: 16px;
+		font-size: 15px;
 	}
 }
 
@@ -74,7 +74,7 @@
 	}
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 450px) {
 	.title {
 		font-size: 32.5px;
 	}

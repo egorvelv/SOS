@@ -21,6 +21,18 @@
 	background-image: url(../img/about_bg.jpg);
 }
 
+.section.-features {
+	background-image: url(../img/features_bg.jpg);
+}
+
+.section.-requirements {
+	background-image: url(../img/requirements_bg.png);
+}
+
+.section.-quotes {
+	
+}
+
 .content {
 	display: flex;
 	justify-content: space-between;
@@ -30,4 +42,22 @@
 	justify-content: unset;
 	flex-direction: column;
 	align-items: center;
+}
+
+.content.-start {
+	display: flex;
+	justify-content: flex-start;
+	width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+	.section {
+		align-items: unset;
+	}
+
+	.content {
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+	}
 }
