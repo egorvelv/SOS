@@ -47,4 +47,8 @@
 		font-size: 14px;
 		margin: 0 auto;
 	}
+
+	.button.-l {
+		width: 100%;
+	}
 }
