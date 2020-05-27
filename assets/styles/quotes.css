@@ -1,14 +1,41 @@
 .quotes {
-
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .comment {
+	display: block;
+	width: 85%;
+	padding: 15px;
+	border: .5px solid var(--c-gray-light);
+	border-radius: 10px;
+	background: var(--c-gray-dark);
+}
 
+.comment.-right {
+	transform: translateX(45px);
+	margin-bottom: 25px;
+}
+
+.comment.-left {
+	transform: translateX(-100px);
+	margin-bottom: 25px;
 }
 
 .user {
 	display: flex;
 	justify-content: flex-start;
+}
+
+.user__avatar {
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
 }
 
 .user__name {
@@ -17,6 +44,55 @@
 	color: var(--c-yellow);
 }
 
+.user__job {
+	color: var(--c-gray-light);
+}
+
 .user__link {
 	margin-left: auto;
+}
+
+.comment__date {
+	font-size: 14px;
+	color: var(--c-gray-light)
+}
+
+@media screen and (max-width: 1023px) {
+	.comment.-right {
+		transform: translateX(25px);
+		margin-bottom: 20px;
+	}
+
+	.comment.-left {
+		margin-bottom: 20px;
+		transform: translateX(-50px);
+	}
+}
+
+@media screen and (max-width: 890px) {
+	.comment.-left {
+		margin-bottom: 20px;
+		transform: translateX(-25px);
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.quotes {
+		width: 100%;
+		padding-bottom: 20px;
+	}
+
+	.comment {
+		width: calc(100% - 40px);
+	}
+
+	.comment.-right {
+		transform: translateX(0px);
+		margin-bottom: 20px;
+	}
+
+	.comment.-left {
+		margin-bottom: 20px;
+		transform: translateX(0px);
+	}
 }

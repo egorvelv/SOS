@@ -3,7 +3,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
+	/* padding: 20px 0px; */
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -15,6 +15,7 @@
 	justify-content: space-between;
 	align-items: center;
 	background-image: url(../img/main_bg.jpg);
+	padding-top: 0px;
 }
 
 .section.-about {
@@ -33,6 +34,17 @@
 	background-image: url(../img/quotes_bg.jpg);
 }
 
+.section.-newsletter {
+	background: url(../img/newsletter_bg.jpg);
+	height: calc(100vh - 100px);
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
 .content {
 	display: flex;
 	justify-content: space-between;
@@ -44,10 +56,28 @@
 	align-items: center;
 }
 
+.content.-end {
+	flex-direction: column;
+	justify-content: unset;
+	align-items: flex-end;
+}
+
 .content.-start {
 	display: flex;
 	justify-content: flex-start;
 	width: 100%;
+}
+
+.content__left {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.content__right {
+	width: 50%;
 }
 
 @media screen and (max-width: 767px) {
@@ -63,5 +93,16 @@
 
 	.content.-col {
 		padding-top: 20px;
+	}
+
+	.content__left {
+		width: 100%;
+		margin-bottom: 20px;
+		padding: 20px 0px 0px;
+	}
+
+	.content.-features {
+		justify-content: center;
+		height: 100%;
 	}
 }

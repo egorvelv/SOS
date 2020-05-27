@@ -3,6 +3,7 @@
 	--c-black: #000;
 	--c-yellow: #FFB548;
 	--c-yellow-gradient: linear-gradient(100deg, #FFB548, #F3AF3A);
-	--c-gray-dark: #979797;
+	--c-gray: #979797;
 	--c-gray-light: rgba(255, 255, 255, 0.5);
+	--c-gray-dark: rgba(255, 255, 255, 0.08);
 }
