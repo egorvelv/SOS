@@ -36,6 +36,18 @@
 	width: 65px;
 	height: 65px;
 	border-radius: 50%;
+	margin-bottom: 15px;
+	margin-right: 25px;
+}
+
+.user__avatar:after {
+	display: block;
+	content: "";
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	transform: translate(10px, 10px);
+	background: var(--c-yellow);
 }
 
 .user__name {

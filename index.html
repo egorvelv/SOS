@@ -21,6 +21,7 @@
 	<link rel="stylesheet" type="text/css" href="./assets/styles/quotes.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/features.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/form.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/footer.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -42,8 +43,8 @@
 					</div>
 					<i class="actions__divider"></i>
 					<div class="header__partners">
-						<a href="" class="header__partner"><img src="./assets/img/header_1.svg" alt="Xbox" class="header__img"></a>
-						<a href="" class="header__partner"><img src="./assets/img/header_2.svg" alt="Steam" class="header__img"></a>
+						<a href="" class="header__partner"><img src="./assets/img/header_xbox.svg" alt="Xbox" class="header__img"></a>
+						<a href="" class="header__partner"><img src="./assets/img/header_steam.svg" alt="Steam" class="header__img"></a>
 					</div>
 
 					<div class="burger">
@@ -181,13 +182,13 @@
 				<div class="quotes">
 					<div class="comment -right">
 						<div class="user">
-							<div class="user__avatar"></div>
+							<div style="background-image: url(./assets/img/quotes_1.png)" class="user__avatar"></div>
 							<div class="user__info">
 								<h5 class="user__name">Evan Lahti</h5>
 								<h6 class="user__job">PC Gamer</h6>
 							</div>
 
-							<a href="" class="user__link"><img src="./assets/img/twitter.svg" alt="Twitter" class="user__img"></a>
+							<a href="" class="user__link"><img src="./assets/img/quotes_twitter.svg" alt="Twitter" class="user__img"></a>
 						</div>
 
 						<div class="comment__body">
@@ -198,13 +199,13 @@
 
 					<div class="comment -left">
 							<div class="user">
-								<div class="user__avatar"></div>
+								<div style="background-image: url(./assets/img/quotes_2.png)" class="user__avatar"></div>
 								<div class="user__info">
 									<h5 class="user__name">Jada Griffin</h5>
 									<h6 class="user__job">Nerdreactor</h6>
 								</div>
 
-								<a href="" class="user__link"><img src="./assets/img/twitter.svg" alt="Twitter" class="user__img"></a>
+								<a href="" class="user__link"><img src="./assets/img/quotes_twitter.svg" alt="Twitter" class="user__img"></a>
 							</div>
 
 							<div class="comment__body">
@@ -215,13 +216,13 @@
 
 					<div class="comment">
 						<div class="user">
-							<div class="user__avatar"></div>
+							<div style="background-image: url(./assets/img/quotes_3.png)" class="user__avatar"></div>
 							<div class="user__info">
 								<h5 class="user__name">Aaron Williams</h5>
 								<h6 class="user__job">Uproxx</h6>
 							</div>
 
-							<a href="" class="user__link"><img src="./assets/img/twitter.svg" alt="Twitter" class="user__img"></a>
+							<a href="" class="user__link"><img src="./assets/img/quotes_twitter.svg" alt="Twitter" class="user__img"></a>
 						</div>
 
 						<div class="comment__body">
@@ -241,21 +242,48 @@
 					<h3 class="subtitle">Want to stay in touch?</h3>
 					<h2 class="title">Newsletter subscribe</h2>
 					<p class="text">In order to start receiving our news, all you have to do is enter your email address. Everything else will be taken care of by us. We will send you email containing information about game. We don't spam.</p>
-
-					<form action="" class="form">
-						<label for="email">
-							<input name="email" type="email" placeholder="Your email address">
-							<button type="submit" class="button -l">Subscribe now</button>
-						</label>
-					
-					</form>
 				</div>	
+
+				<form action="" class="form">
+					<label for="email">
+						<input name="email" type="email" placeholder="Your email address">
+						<button type="submit" class="button -l">Subscribe now</button>
+					</label>
+				</form>
 			</div>	
 		</div>
 
-		<footer class="footer">
-			<div class="container"></div>
-		</footer>
+		<div class="container">
+			<footer class="footer">
+				<div class="footer__top">
+					<img src="./assets/img/logo.png" alt="Game's logo" class="logo">
+
+					<nav class="nav -footer">
+						<a href="#main" class="nav__link">Main</a>
+						<a href="#about" class="nav__link">About</a>
+						<a href="#features" class="nav__link">Game features</a>
+						<a href="#requirements" class="nav__link">System requirements</a>
+						<a href="#quotes" class="nav__link">Quotes</a>
+					</nav>
+
+					<div class="footer__partners">
+						<img src="./assets/img/footer_facebook.svg" alt="Facebook" class="footer__partner">
+						<img src="./assets/img/footer_twitter.svg" alt="Twitter" class="footer__partner">
+						<img src="./assets/img/footer_youtube.svg" alt="Youtube" class="footer__partner">
+						<img src="./assets/img/footer_twitch.svg" alt="Twitch" class="footer__partner">
+					</div>
+				</div>
+				<div class="footer__bottom">
+					<h6 class="copyright">© 2018 Outpost Games, Inc. All Rights Reserved</h6>
+
+					<div class="footer__links">
+						<a href="" class="footer__link">Privacy policy</a>
+						<a href="" class="footer__link">Terms of services</a>
+						<a href="" class="footer__link">Code of conduct</a>
+					</div>
+				</div>
+			</footer>
+		</div>
 	</section>
 </body>
 </html>
