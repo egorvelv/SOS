@@ -1,4 +1,4 @@
-# [SOS](https://fraula.github.io/SOS/)
+# [SOS](https://egorvelv.github.io/SOS/)
 
 A very big project about a game. Enjoy your visit on this page!
 
